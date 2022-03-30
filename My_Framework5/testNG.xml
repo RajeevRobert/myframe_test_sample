@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Testing Suite">
+	<listeners>
+		<listener class-name="com.test.listeners.TestListener" />
+	</listeners>
+
+
+
+	<test name="Test1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.AccountCreationTestScript" />
+		</classes>
+  </test>
+	<test name="Test2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.LoginPageTestScript" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.SelectProductTestScript" />
+		</classes>
+	</test>
+	<test name="Test4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.ApplyFilterTestScript" />
+		</classes>
+	</test>
+	<test name="Test5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.AddToCartTestScript" />
+		</classes>
+	</test>
+	<test name="Test6">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.ViewCartTestScript" />
+		</classes>
+	</test>
+	<test name="Test7">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.SearchProductTestScript" />
+		</classes>
+	</test>
+	<test name="Test8">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.LiveChatLoginTestScript" />
+		</classes>
+	</test>
+	<test name="Test9">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.RemoveProductCartTestScript" />
+		</classes>
+	</test>
+	<test name="Test10">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.ApplyCoupinCodeTestScript" />
+		</classes>
+	</test>
+	<test name="Test11">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.ScrollPageTestScript" />
+		</classes>
+	</test>
+	<test name="Test12">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.NavigateHomePageTestScript" />
+		</classes>
+	</test>
+	<test name="Test13">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.VerifyZipCodeTestScript" />
+		</classes>
+	</test>
+	<test name="Test14">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.VerifyQuantityTestScript" />
+		</classes>
+	</test>
+	<test name="Test15">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.VerifyLogoutTestScript" />
+		</classes>
+	</test>
+	<test name="Test16">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.test.testscripts.VerifyLogoTestScript" />
+		</classes>
+	</test>
+	
+</suite> 

@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.test.listeners.TestListener"/>
+  </listeners>
+  <test name="Test3(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="productSelect"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="applyFilter"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test name="Test6(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="viewCart"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test name="Test7(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test name="Test10(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="applyCoupincode"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test name="Test11(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="scrollPage"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test11(failed) -->
+  <test name="Test12(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="navigateHomePage"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+  <test name="Test13(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="verifyZipCode"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test13(failed) -->
+  <test name="Test14(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="VerifyQuantity"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test14(failed) -->
+  <test name="Test15(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testscripts.ApplyFilterTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyFilterTestScript -->
+      <class name="com.test.testscripts.ApplyCoupinCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ApplyCoupinCodeTestScript -->
+      <class name="com.test.testscripts.VerifyQuantityTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyQuantityTestScript -->
+      <class name="com.test.testscripts.ViewCartTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ViewCartTestScript -->
+      <class name="com.test.testscripts.LoginPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.LoginPageTestScript -->
+      <class name="com.test.testscripts.AccountCreationTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.AccountCreationTestScript -->
+      <class name="com.test.testscripts.SearchProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SearchProductTestScript -->
+      <class name="com.test.testscripts.VerifyLogoutTestScript">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoutTestScript -->
+      <class name="com.test.testscripts.ScrollPageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.ScrollPageTestScript -->
+      <class name="com.test.testscripts.SelectProductTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.SelectProductTestScript -->
+      <class name="com.test.testscripts.NavigateHomePageTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.NavigateHomePageTestScript -->
+      <class name="com.test.testscripts.VerifyZipCodeTestScript">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyZipCodeTestScript -->
+      <class name="com.test.testscripts.VerifyLogoTestScript">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.test.testscripts.VerifyLogoTestScript -->
+    </classes>
+  </test> <!-- Test15(failed) -->
+</suite> <!-- Failed suite [Testing Suite] -->
