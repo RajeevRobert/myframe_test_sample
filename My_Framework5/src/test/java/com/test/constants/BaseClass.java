@@ -66,6 +66,7 @@ public class BaseClass {
 			System.out.println("Script running by Firefox browser");
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\workspace\\YLigthingDemo\\Drivers\\geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
+			log.info("firefox driver is up and running");
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 			driver.get(prop.getProperty("url"));
