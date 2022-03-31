@@ -46,7 +46,7 @@ public class TestListener implements ITestListener {
 	 */
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
-		String fileWithPath = "C:\\Users\\user\\workspace\\YLigthingDemo\\screenshot";
+		String fileWithPath = "./screenshot/";
 		try {
 			ExtentTestManager.getTest()
 					.addScreenCaptureFromPath(fileWithPath + result.getMethod().getMethodName() + ".png");

@@ -35,7 +35,7 @@ public class ExtentManager {
 		htmlReporter.config().setTheme(Theme.STANDARD);
 		htmlReporter.config().setDocumentTitle(reportFileName);
 		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setReportName("YLighting Automation Report ");
+		htmlReporter.config().setReportName("TestAutomation Report ");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("OS", "Windows");

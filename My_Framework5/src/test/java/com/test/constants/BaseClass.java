@@ -64,7 +64,7 @@ public class BaseClass {
 		
 		public static WebDriver gotoFirefoxDriver() {
 			System.out.println("Script running by Firefox browser");
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\workspace\\YLigthingDemo\\Drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
 			log.info("firefox driver is up and running");
 			driver.manage().window().maximize();
@@ -108,7 +108,7 @@ public class BaseClass {
 			Date d=new Date();
 			String dateString = d.toString().replace(":", "_").replace(" ", "_");
 			
-			String destPath ="C:\\Users\\user\\workspace\\YLigthingDemo\\screenshot\\" + dateString + screenshotName + ".png";
+			String destPath ="./screenshot/" + dateString + screenshotName + ".png";
 
 			TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
 

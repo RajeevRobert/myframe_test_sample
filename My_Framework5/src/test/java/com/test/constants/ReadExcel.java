@@ -19,7 +19,7 @@ public class ReadExcel {
 	public static void setExcelFile(String sheetname) throws IOException {
 
 		String filePath = System.getProperty("user.dir");
-		String fileName = "YLigthingDemo.xlsx";
+		String fileName = "MyTestData.xlsx";
 		File file = new File(filePath + "\\" + fileName);
 		FileInputStream inputStream = new FileInputStream(file);
 		book = new XSSFWorkbook(inputStream);
